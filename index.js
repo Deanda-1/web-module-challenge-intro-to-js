@@ -227,10 +227,10 @@ Using the miles function below do the following:
 3. Return the number of miles
 */
 
-function miles(/*add your code here*/){
-  /*add your code here*/
+function miles(Km){
+  return (Km * 0.621371);
 }
-
+console.log(miles(10));
 
 
 //Task 5b - Centimeters to Feet
@@ -241,10 +241,10 @@ Using the feet function below do the following:
 3. Return number of feet
 */
 
-function feet(/*add your code here*/){
-  /*add your code here*/
+function feet(cm){
+  return (cm/30.48)
 }
-
+console.log(feet(15));
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
